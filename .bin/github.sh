@@ -9,3 +9,7 @@ echo "ВВЕДИТЕ ВАШ КОММИТ"
 read -r varcommit 
 git commit -m "$varcommit"
 git push -u origin master
+sleep 5
+git push heroku master
+heroku ps:scale web=1
+heroku open

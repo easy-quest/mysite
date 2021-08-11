@@ -72,6 +72,12 @@ class AboutPageView(TemplateView):
     template_name = 'about.html'
 ZZZ
 
+# HEROKU 
+
+cat > Procfile <<ZZZ
+web: gunicorn pages_project.wsgi --log-file -
+ZZZ
+
 # TEST
 
 cat > pages/tests.py <<ZZZ

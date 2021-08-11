@@ -54,7 +54,7 @@ Run 'python manage.py migrate'
 scp zzz@zzzi.site:/home/zzz/mysite/*sh  ~/mysite/.bin
 ```
 python manage.py test
-
+pipenv install gunicorn
 sudo npm i -g heroku
 heroku login
 ./git.sh 

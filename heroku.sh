@@ -8,4 +8,4 @@ heroku git:remote -a $varapp
 
 heroku config:set DISABLE_COLLECTSTATIC=1
 
-git push heroku master
+heroku ps:scale web=1
