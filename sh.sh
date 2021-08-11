@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 
-mkdir /home/zzz/mysite/templates
+# mkdir /home/zzz/mysite/templates
 
-git config --global user.name "Yastrebov Ivan"
-git config --global user.email "easy-quest@mail.ru"
+# git config --global user.name "Yastrebov Ivan"
+# git config --global user.email "easy-quest@mail.ru"
 
 # TEMPLATES
 

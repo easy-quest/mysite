@@ -53,3 +53,8 @@ Run 'python manage.py migrate'
 ```shell
 scp zzz@zzzi.site:/home/zzz/mysite/*sh  ~/mysite/.bin
 ```
+python manage.py test
+
+sudo npm i -g heroku
+heroku login
+./git.sh 

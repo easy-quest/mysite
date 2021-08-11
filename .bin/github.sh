@@ -5,7 +5,7 @@
 git status
 sleep 5
 git add -A
-echo 'напиши коммит'
-read varcommit
+echo "ВВЕДИТЕ ВАШ КОММИТ"
+read -r varcommit 
 git commit -m "$varcommit"
 git push -u origin master
