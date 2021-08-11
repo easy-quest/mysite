@@ -1,4 +1,16 @@
 {
   "mobioos-forge.variability": "Functionality",
-  "python.pythonPath": ".venv/bin/python3.9"
+  "python.pythonPath": ".venv/bin/python3.9",
+  "[fish]": {
+    "editor.selectionClipboard": true
+  },
+  "[gitconfig]": {
+    "debug.saveBeforeStart": "allEditorsInActiveGroup"
+  },
+  "[git-commit]": {
+    "editor.rulers": [
+      72
+    ],
+    "workbench.editor.restoreViewState": true
+  }
 }
